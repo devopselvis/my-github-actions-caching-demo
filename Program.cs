@@ -1,4 +1,5 @@
 using System;
+using Newtonsoft.Json;
 
 namespace DemoCache
 {
@@ -6,7 +7,8 @@ namespace DemoCache
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello from the GitHub Actions Cache Demo!");
+            var obj = new { Message = "Hello from the GitHub Actions Cache Demo!" };
+            Console.WriteLine(JsonConvert.SerializeObject(obj));
         }
     }
 }
