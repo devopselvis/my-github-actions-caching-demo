@@ -54,5 +54,54 @@
     <PackageReference Include="System.Memory" Version="4.5.5" />
     <PackageReference Include="System.Linq.Async" Version="6.0.1" />
     <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="8.0.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="Microsoft.Playwright" Version="1.43.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.3.3" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.3.3" />
+    <PackageReference Include="Azure.Identity" Version="1.11.3" />
+    <PackageReference Include="Azure.Core" Version="1.39.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.19.1" />
+    <PackageReference Include="Azure.Data.Tables" Version="12.10.1" />
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.17.1" />
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.6.0" />
+    <PackageReference Include="Azure.Monitor.OpenTelemetry.Exporter" Version="1.1.2" />
+    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.12.1" />
+    <PackageReference Include="Azure.Messaging.EventGrid" Version="4.17.0" />
+    <PackageReference Include="Azure.Search.Documents" Version="11.5.0" />
+    <PackageReference Include="Azure.ResourceManager" Version="1.11.2" />
+    <PackageReference Include="Azure.AI.TextAnalytics" Version="5.3.0" />
+    <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.10" />
+    <PackageReference Include="Azure.Storage.Queues" Version="12.17.0" />
+    <PackageReference Include="Azure.Monitor.Query" Version="1.4.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.22.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.24.0" />
+    <PackageReference Include="Microsoft.FeatureManagement" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Bcl.Json.Sources" Version="8.0.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Threading" Version="17.9.23" />
+    <PackageReference Include="Microsoft.VisualStudio.Validation" Version="17.9.17" />
+    <PackageReference Include="Microsoft.Tye.Extensions.Configuration" Version="0.11.0-alpha.22109.1" />
+    <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client" Version="1.0.23" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.38.0" />
+    <PackageReference Include="Microsoft.Extensions.Azure" Version="1.8.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+    <PackageReference Include="System.Net.Http.Headers" Version="7.0.0" />
+    <PackageReference Include="System.Net.Http.Formatting.Extension" Version="7.0.0" />
+    <PackageReference Include="System.Reflection.Emit" Version="8.0.0" />
+    <PackageReference Include="System.Reflection.Emit.Lightweight" Version="8.0.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="8.0.0" />
+    <PackageReference Include="System.Threading.Tasks.Dataflow" Version="8.0.0" />
+    <PackageReference Include="System.Threading.Channels" Version="8.0.0" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="8.0.0" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="8.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
   </ItemGroup>
 </Project>
