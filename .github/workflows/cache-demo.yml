@@ -1,0 +1,38 @@
+name: GitHub Actions Caching Demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Cache NuGet packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('DemoCache/*.csproj') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      - name: Restore dependencies (timed)
+        run: |
+          echo "Restoring dependencies..."
+          time dotnet restore
+
+      - name: Build (timed)
+        run: |
+          echo "Building the project..."
+          time dotnet build --no-restore --configuration Release
+
+      - name: Run the app
+        run: dotnet run
