@@ -29,10 +29,10 @@ jobs:
           echo "Restoring dependencies..."
           time dotnet restore
 
-      - name: Build (timed)
-        run: |
-          echo "Building the project..."
-          time dotnet build --no-restore --configuration Release
+      #- name: Build (timed)
+      #  run: |
+      #    echo "Building the project..."
+      #    time dotnet build --no-restore --configuration Release
 
-      - name: Run the app
-        run: dotnet run
+      #- name: Run the app
+      #  run: dotnet run
