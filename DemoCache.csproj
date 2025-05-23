@@ -105,7 +105,6 @@
     <PackageReference Include="System.IO.Abstractions" Version="19.0.1" />
     <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
     <PackageReference Include="LiteGuard" Version="2.0.0" />
-    <PackageReference Include="MiniProfiler" Version="4.5.4" />
     <PackageReference Include="xunit" Version="2.6.6" />
     <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="System.Runtime.Caching" Version="8.0.0" />
@@ -114,7 +113,6 @@
     <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
     <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
     <PackageReference Include="System.Xml.XPath.XDocument" Version="4.3.0" />
-    <PackageReference Include="System.Xml.Linq" Version="3.5.21022.801" />
     <PackageReference Include="System.Xml.XDocument" Version="4.3.0" />
     <PackageReference Include="System.Xml.XPath" Version="4.3.0" />
     <!-- Even more: add a few more utility/testing/cloud libraries -->
